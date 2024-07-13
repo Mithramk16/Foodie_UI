@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.waitlist-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+main {
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.656),rgba(255, 0, 0, 0.622)), url(/img/Map-UI.png.webp);
+    background-size:cover;  
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone{
+    position: relative;
+}
+.phone2{
+    
+    position: absolute;
+    top: 20px;
+}
+.phone img {
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+video{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+footer {
+    background-color: #ffe0e0;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.shape{
+    background-color: rgba(255, 255, 255, 0.693);
+}
